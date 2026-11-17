@@ -1,0 +1,32 @@
+PORTFOLIO WEB — PAULA VICTORIA
+==============================
+
+Qué hay en esta carpeta
+- index.html   → la web (una sola página con los casos en ventanas superpuestas)
+- config.js    → TUS DATOS DE CONTACTO: email, teléfono, CV, LinkedIn, Behance
+- data.js      → todos los textos, proyectos, reels, webs, redes y experiencia
+- styles.css   → diseño (colores en :root al principio del archivo)
+- main.js      → animaciones e interacción (no hace falta tocarlo)
+- assets/img   → imágenes optimizadas (.webp)
+- assets/video → vídeos comprimidos para la web (+ póster .webp)
+
+CV y contacto
+- El CV de la web es assets/Paula_Victoria_CV.pdf (copia de CV/Paula_Victoria_CV.pdf,
+  con el mismo diseño que el portfolio). Para imprimir usa CV/Paula_Victoria_CV_impresion.pdf.
+  Para cambiarlo, sustituye ese archivo manteniendo el mismo nombre.
+- Email, teléfono y enlaces se cambian en config.js.
+
+Cómo publicarla gratis (la forma más fácil)
+- Netlify Drop: entra en https://app.netlify.com/drop y arrastra la carpeta
+  "web-portfolio" entera. Te da un enlace al momento; luego puedes ponerle
+  un dominio propio (p. ej. paulavictoria.com).
+- Alternativas: GitHub Pages, Vercel o el hosting de blackicebrand.es
+  (sube el contenido de la carpeta por FTP a una subcarpeta).
+
+Ver la web en tu ordenador
+- Abre index.html con doble clic. Si algún vídeo no carga así, usa la versión
+  publicada: los navegadores son más estrictos con archivos locales.
+
+Enlaces directos a cada caso (útil para mandar a una empresa concreta)
+  tudominio/#spotter   #wonderskids   #camarote   #krysthaleco   #universal
+  #aroma   #apunt   #aiguadolca   #audiovisual   #carteleria   #identidad
