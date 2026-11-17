@@ -34,7 +34,7 @@
   const finish = () => { loader.classList.add('is-done'); document.body.classList.add('is-loaded'); setTimeout(() => loader.remove(), 1400); };
   if (reduced) finish(); else {
     let n = 0; const t0 = performance.now(); const D = 1100;
-    const tick = now => { n = Math.min(100, Math.round(((now - t0) / D) ** .7 * 100)); count.textContent = n; n < 100 ? requestAnimationFrame(tick) : setTimeout(finish, 150); };
+    const tick = now => { n = Math.min(100, Math.round((Math.max(0, now - t0) / D) ** .7 * 100)); count.textContent = n; n < 100 ? requestAnimationFrame(tick) : setTimeout(finish, 150); };
     requestAnimationFrame(tick);
   }
 
