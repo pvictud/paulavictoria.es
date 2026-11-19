@@ -17,7 +17,7 @@ window.CASES = [
       { t: 'text', h: 'El enfoque', p: 'Creé una identidad oscura y enérgica, con el rojo como color de acción. El lema “Entrena. Conecta. Avanza.” resume la promesa. El contenido mezcla carruseles educativos, humor de gimnasio y reels con creadoras reales. Cada actualización de la app se convierte en una campaña con teaser, revelación y llamada a actualizar.' },
       { t: 'carousel', title: 'Carrusel — ¿Sabes qué es un spotter?', items: seq('sp-que', 7) },
       { t: 'carousel', title: 'Carrusel — Guía de supervivencia', items: seq('sp-guia', 7) },
-      { t: 'stories', title: 'Reels & stories', items: ['v:sp-gimnasio', 'v:sp-motivacion', 'v:sp-gymsisters', 'v:sp-montanejos', 'v:sp-youlove', 'v:sp-tiktok'] },
+      { t: 'stories', title: 'Reels & stories', items: ['v:sp-empezar', 'v:sp-gimnasio', 'v:sp-motivacion', 'v:sp-gymsisters', 'v:sp-montanejos', 'v:sp-youlove', 'v:sp-tiktok'] },
       { t: 'carousel', title: 'Campaña nueva versión — teaser', items: seq('sp-teaser', 5) },
       { t: 'carousel', title: 'Campaña nueva versión — revelación', items: seq('sp-nueva', 6) },
       { t: 'carousel', title: 'Actualización: filtros, historias y calendario', items: seq('sp-filtro', 7) },
@@ -204,6 +204,7 @@ window.CASES = [
 ];
 
 window.REELS = [
+  ['sp-empezar', 'Spotter', 'Reel — Si tuviera que empezar de cero'],
   ['sp-gimnasio', 'Spotter', 'Reel — Humor de gimnasio'],
   ['cat-teaser', 'Catedral Club', 'Teaser de reapertura'],
   ['krys-2', 'Krysthaleco', 'Story de producto'],
