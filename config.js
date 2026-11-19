@@ -7,6 +7,5 @@ window.CONFIG = {
   phone: '',                       // p. ej. '+34 600 000 000'
   cv: 'assets/Paula_Victoria_CV.pdf',
   linkedin: 'https://www.linkedin.com/in/paulavictoriatudela/',
-  behance: 'https://www.behance.net/paulablackicebrand',
-  portfolioCompleto: 'https://drive.google.com/drive/folders/1spmbYFFoGQGPPEPi0J64ltISBnznKfaB?usp=sharing'
+  behance: 'https://www.behance.net/paulablackicebrand'
 };
