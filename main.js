@@ -132,6 +132,7 @@
   if (C.cv) links.push(`<a class="btn" href="${C.cv}" target="_blank" rel="noopener">Ver CV (PDF) ↗</a>`);
   if (C.behance) links.push(`<a class="btn" href="${C.behance}" target="_blank" rel="noopener">Behance ↗</a>`);
   if (C.portfolioCompleto) links.push(`<a class="btn" href="${C.portfolioCompleto}" target="_blank" rel="noopener">Portfolio completo ↗</a>`);
+  if (C.cv && C.cvImpresion) links.push(`<p class="contact__note">¿Lo vas a imprimir? <a href="${C.cvImpresion}" download="Paula_Victoria_CV_impresion.pdf">Descarga la versión en blanco ↓</a></p>`);
   $('#contactLinks').innerHTML = links.join('');
   $$('[data-copy]').forEach(b => b.addEventListener('click', () => {
     const done = () => { b.textContent = 'Email copiado ✓'; setTimeout(() => { b.textContent = 'Copiar email'; }, 2200); };
