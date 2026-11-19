@@ -28,8 +28,11 @@ window.CASES = [
       { t: 'text', h: 'Nuevo logo 2026', p: 'Rediseñé el logotipo para la nueva etapa de la app: un pin de ubicación con un disco de pesas y un brazo en tensión, y una tipografía más redondeada y cercana. Tiene versiones para fondo claro y oscuro, icono de app y aplicaciones como el banner de LinkedIn.' },
       { t: 'grid', cols: 3, items: ['sp-logo', 'sp-logo-dark', 'sp-logo-solo'] },
       { t: 'grid', cols: 1, items: ['sp-banner'] },
-      { t: 'text', h: 'Evento de marca — The Match Afterwork', p: 'Una experiencia presencial junto a Makaliss para llevar la comunidad de Spotter del móvil a la vida real: sesión de entrenamiento, afterwork y networking.' },
-      { t: 'grid', cols: 3, items: seq('sp-evento', 6) },
+      { t: 'text', h: 'Evento de marca — The Match Afterwork', p: 'Una experiencia presencial junto a Makaliss para llevar la comunidad de Spotter del móvil a la vida real. Empezó con una clase de pilates; después, la dinámica «Find your match» de Spotter, en la que cada asistente buscaba a su compañero de entrenamiento con una tarjeta; y terminó con un afterwork con las bebidas de Makaliss.' },
+      { t: 'grid', title: 'Clase de pilates', cols: 3, items: seq('ev-pil', 6) },
+      { t: 'grid', title: 'Dinámica «Find your match»', cols: 4, items: seq('ev-match', 4) },
+      { t: 'grid', cols: 1, items: ['ev-grupo'] },
+      { t: 'grid', title: 'Afterwork con Makaliss', cols: 4, items: seq('ev-after', 4) },
       { t: 'browser', img: 'sp-web', url: 'https://spotterapp.es/' },
     ]
   },
