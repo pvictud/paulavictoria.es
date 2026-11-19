@@ -146,7 +146,8 @@
     const step = now => { const p = Math.min(1, (now - t0) / 1200); el.textContent = Math.round(to * (1 - (1 - p) ** 3)); if (p < 1) requestAnimationFrame(step); };
     reduced ? (el.textContent = to) : requestAnimationFrame(step);
   }), { threshold: .5 });
-  $$('[data-count]').forEach(el => cio.observe(el));
+  // real numbers stay in the HTML (search engines, previews); visitors see them count up from 0
+  $$('[data-count]').forEach(el => { if (!reduced && el.getBoundingClientRect().top > innerHeight) el.textContent = '0'; cio.observe(el); });
 
   /* ---------- case overlay ---------- */
   const caseEl = $('#case'), caseScroll = $('#caseScroll');
